@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "2019-14.png": { option: "C", content: "Wednesday（星期三）" },
         "2019-16.png": { option: "D", content: "3" },
         "2019-18.png": { option: "C", content: "36" },
-        "2019-19.png": { option: "C", content: "3" },
+        "2019-19.png": { option: "C", content: "24" },
         "2019-20.png": { option: "D", content: "4" },
         "2019-25.png": { option: "C", content: "190" },
         "2022-14.png": { option: "C", content: "7" },
