@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const answerContainer = document.getElementById('answer-container');
 
     const problemAnswers = {
-        "2014-18.png": { option: "D", content: "5/9" },
         "2019-14.png": { option: "C", content: "Wednesday（星期三）" },
         "2019-16.png": { option: "D", content: "110" },
         "2019-18.png": { option: "C", content: "5/9" },
@@ -39,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const rawFileNames = [
-        "2014-18.png", "2019-14.png", "2019-16.png", "2019-18.png",
+        "2019-14.png", "2019-16.png", "2019-18.png",
         "2019-19.png", "2019-20.png", "2019-25.png", "2022-14.png",
         "2022-17.png", "2022-25.png", "2023-16.png", "2023-18.png",
         "2023-21.png", "2023-23.png"
