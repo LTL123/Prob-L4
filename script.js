@@ -18,16 +18,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const problemAnswers = {
         "2014-18.png": { option: "D", content: "5/9" },
         "2019-14.png": { option: "C", content: "Wednesday（星期三）" },
-        "2019-16.png": { option: "D", content: "3" },
-        "2019-18.png": { option: "C", content: "36" },
+        "2019-16.png": { option: "D", content: "110" },
+        "2019-18.png": { option: "C", content: "5/9" },
         "2019-19.png": { option: "C", content: "24" },
         "2019-20.png": { option: "D", content: "4" },
         "2019-25.png": { option: "C", content: "190" },
         "2022-14.png": { option: "C", content: "" },
         "2022-17.png": { option: "B", content: "2" },
         "2022-25.png": { option: "E", content: "1/4" },
-        "2023-16.png": { option: "B", content: "6" },
-        "2023-18.png": { option: "C", content: "1/2" },
+        "2023-16.png": { option: "B", content: "133-Ps, 134-Qs. 133-Rs" },
+        "2023-18.png": { option: "C", content: "411" },
         "2023-21.png": { option: "C", content: "2" },
         "2023-23.png": { option: "C", content: "1/64" }
     };
