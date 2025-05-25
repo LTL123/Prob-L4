@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Problems</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Math Problem</h1>
+    <div id="level-selection-container">
+        <h2>Choose a Difficulty Level:</h2>
+        <button data-level="1">Level 1 (Problems 1-19)</button>
+        <button data-level="2">Level 2 (Problems 20-23)</button>
+        <button data-level="3">Level 3 (Problems 24-25)</button>
+    </div>
+    <div id="problem-container">
+        <img id="problem-image" src="" alt="Math Problem">
+    </div>
+    <div id="answer-container" style="text-align: center;">
+        <button id="show-answer-button">显示答案</button>
+        <div id="answer-display" style="display: none; margin-top: 10px;">
+            <p><strong>正确答案:</strong> <span id="correct-answer-text"></span></p>
+            <div id="feedback-container" style="margin-top: 10px;">
+                <p>是否回答正确？</p>
+                <button id="feedback-yes">是</button>
+                <button id="feedback-no">否</button>
+            </div>
+        </div>
+    </div>
+    <div id="navigation-container" style="display: none;">
+        <button id="prev-problem">上一题</button>
+        <button id="next-problem">下一题</button>
+        <button id="return-to-menu">返回主菜单</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

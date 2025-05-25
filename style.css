@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#problem-container img {
+    max-width: 80vw;
+    max-height: 60vh;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    display: block; /* Helps with centering if parent is flex */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#answer-container {
+    margin-bottom: 20px;
+}
+
+#answer-container label {
+    margin-right: 10px;
+}
+
+button {
+    margin: 10px 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#navigation-container button, #answer-container button {
+    margin: 10px 5px; /* Adjusted from generic button for specific containers */
+}
+
+#level-selection-container button {
+    display: block; /* Already present, kept for clarity */
+    margin: 15px auto; /* Adjusted for better centering */
+    min-width: 150px; /* Ensure buttons have a minimum width */
+    /* padding and cursor are inherited from the generic button style */
+}
+
+#level-selection-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#level-selection-container h2 {
+    margin-bottom: 10px;
+}
+
+#problem-container, #answer-container {
+    /* display: none; */ /* answer-container should be visible for the 'Show Answer' button */
+    /* problem-container will be shown by script after level selection */
+}
+
+#problem-container {
+    display: none; /* Initially hidden until a level is selected */
+}
