@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "2019-19.png": { option: "C", content: "24" },
         "2019-20.png": { option: "D", content: "4" },
         "2019-25.png": { option: "C", content: "190" },
-        "2022-14.png": { option: "C", content: "7" },
+        "2022-14.png": { option: "C", content: "24" },
         "2022-17.png": { option: "B", content: "2" },
         "2022-25.png": { option: "E", content: "1/4" },
         "2023-16.png": { option: "B", content: "6" },
