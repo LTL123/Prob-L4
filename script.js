@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const answerContainer = document.getElementById('answer-container');
 
     const problemAnswers = {
-        "2014-18.png": { option: "D", content: "23" },
+        "2014-18.png": { option: "D", content: "5/9" },
         "2019-14.png": { option: "C", content: "Wednesday（星期三）" },
         "2019-16.png": { option: "D", content: "3" },
         "2019-18.png": { option: "C", content: "36" },
